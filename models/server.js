@@ -20,8 +20,8 @@ class Server {
     }
     listen(){
         this.app.listen(5000,()=>{
-            console.log(`Servidor levantado en`);
+            console.log(`Servidor levantado en el puerto 5000`);
         })
     }
 }
-export default Server
+export {Server}

@@ -1,6 +1,7 @@
 import express from 'express';
 const router = express.Router();
 import validateDoc from "../middlewares/validateDoc";
+import { postSucursales } from '../controllers/sucursales.contollers.js';
 
 
 router.post('/sucursales', [
